@@ -2,7 +2,7 @@
 # from Practice.keras.Models import NeuralNet
 from keras import datasets
 from keras.backend import image_data_format
-from Practice.keras.Models import Machine
+from Practice.keras.keraspp.aicnn import Machine
 
 assert image_data_format() == 'channels_last'
 
